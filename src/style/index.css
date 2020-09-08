@@ -5,7 +5,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+  BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
   font-size: 16px;
 }
 
@@ -17,4 +19,56 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.register-button {
+  background-color: #42b72a;
+  margin-left: 20px;
+}
+
+.content {
+  padding: 0 200px;
+}
+
+.logoContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mainContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.contentBox {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
